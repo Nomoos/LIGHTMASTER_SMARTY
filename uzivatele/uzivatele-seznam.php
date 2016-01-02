@@ -1,0 +1,1 @@
+<?phpif ($_SESSION['user']['admin'] == '2') {    $list_sql = query("    SELECT *    FROM `uzivatel_vw`    WHERE `smazano` = '0'    ORDER BY `login`"    );} else {    $list_sql = query("    SELECT *    FROM `uzivatel_vw`    WHERE `admin`='0' AND `smazano`='0'    ORDER BY `login`"    );}$list = fetch_array($list_sql);$smarty->assign("list", $list);?>

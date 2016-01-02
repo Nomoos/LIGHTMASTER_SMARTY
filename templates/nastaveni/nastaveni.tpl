@@ -1,0 +1,1 @@
+{if $page.sub.tpl}    {include $page.sub.tpl}{/if}

@@ -1,0 +1,265 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lightmaster\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-12-30 01:01+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ..//companies/companies-list.tpl:5
+msgid "COMPANIESTITLE"
+msgstr "Şirket"
+
+#: ..//companies/companies-list.tpl:15
+msgid "IDCOMPANY"
+msgstr ""
+
+#: ..//companies/companies-list.tpl:16
+msgid "COMPANYNAME"
+msgstr ""
+
+#: ..//companies/companies-list.tpl:17
+msgid "COMPANYENTER"
+msgstr ""
+
+#: ..//companies/companies-list.tpl:18
+msgid "COMPANYEDIT"
+msgstr ""
+
+#: ..//companies/companies-list.tpl:25 ..//controls/controls-list.tpl:26
+msgid "ADMIN"
+msgstr ""
+
+#: ..//companies/companies-list.tpl:25 ..//controls/controls-list.tpl:26
+msgid "MEMBER"
+msgstr ""
+
+#: ..//companies/companies-list.tpl:29 ..//areas/areas-list.tpl:30
+msgid "ENTERCOMPANY"
+msgstr ""
+
+#: ..//companies/companies-list.tpl:38 ..//lamps/lamps-list.tpl:48
+#: ..//controls/controls-list.tpl:39 ..//areas/areas-list.tpl:39
+msgid "EDIT"
+msgstr ""
+
+#: ..//companies/companies-list.tpl:48
+msgid "NOCOMPANIESINDB"
+msgstr ""
+
+#: ..//lamps/lamps-new.tpl:1
+msgid "LAMPIP"
+msgstr ""
+
+#: ..//lamps/lamps-new.tpl:1 ..//controls/controls-new.tpl:1
+#: ..//controls/controls-edit.tpl:1
+msgid "AREA"
+msgstr ""
+
+#: ..//lamps/lamps-new.tpl:1
+msgid "CONTROL"
+msgstr ""
+
+#: ..//lamps/lamps-new.tpl:1
+msgid "LAT"
+msgstr ""
+
+#: ..//lamps/lamps-new.tpl:1
+msgid "LNG"
+msgstr ""
+
+#: ..//lamps/lamps-new.tpl:1
+msgid "DEFAULTWORKLOADPLAN"
+msgstr ""
+
+#: ..//lamps/lamps-new.tpl:1
+msgid "OTHERPLAN"
+msgstr ""
+
+#: ..//lamps/lamps-new.tpl:1
+msgid "COMPANYWORKLOADPLAN"
+msgstr ""
+
+#: ..//lamps/lamps-new.tpl:1 ..//map/map-map.tpl:54 ..//map/map-map.tpl:71
+#: ..//controls/controls-new.tpl:1 ..//controls/controls-edit.tpl:1
+#: ..//areas/areas-edit.tpl:1
+msgid "SAVE"
+msgstr ""
+
+#: ..//lamps/lamps-new.tpl:1 ..//map/map-map.tpl:59 ..//map/map-map.tpl:76
+#: ..//controls/controls-new.tpl:1 ..//controls/controls-edit.tpl:1
+#: ..//areas/areas-edit.tpl:1
+msgid "CANCEL"
+msgstr ""
+
+#: ..//lamps/lamps-list.tpl:8
+msgid "LAMPSTITLE"
+msgstr ""
+
+#: ..//lamps/lamps-list.tpl:39
+msgid "ENTERLAMP"
+msgstr ""
+
+#: ..//lamps/lamps-list.tpl:56
+msgid "NOLAMPINDB"
+msgstr ""
+
+#: ..//filter/filter-filter.tpl:16 ..//filter/filter-filter.tpl:18
+msgid "CREATENEWCOMPANY"
+msgstr ""
+
+#: ..//filter/filter-filter.tpl:22 ..//filter/filter-filter.tpl:24
+msgid "EDITCOMPANY"
+msgstr ""
+
+#: ..//filter/filter-filter.tpl:26 ..//filter/filter-filter.tpl:28
+msgid "DELETECOMPANY"
+msgstr ""
+
+#: ..//filter/filter-filter.tpl:43 ..//filter/filter-filter.tpl:45
+msgid "CREATENEWAREA"
+msgstr ""
+
+#: ..//filter/filter-filter.tpl:49 ..//filter/filter-filter.tpl:51
+msgid "EDITAREA"
+msgstr ""
+
+#: ..//filter/filter-filter.tpl:53 ..//filter/filter-filter.tpl:55
+msgid "DELETEAREA"
+msgstr ""
+
+#: ..//filter/filter-filter.tpl:71 ..//filter/filter-filter.tpl:73
+#: ..//filter/filter-filter.tpl:102
+msgid "CREATENEWCONTROL"
+msgstr ""
+
+#: ..//filter/filter-filter.tpl:77 ..//filter/filter-filter.tpl:79
+#: ..//filter/filter-filter.tpl:108
+msgid "EDITCONTROL"
+msgstr ""
+
+#: ..//filter/filter-filter.tpl:81 ..//filter/filter-filter.tpl:83
+#: ..//filter/filter-filter.tpl:112
+msgid "DELETECONTROL"
+msgstr ""
+
+#: ..//filter/filter-filter.tpl:100
+msgid "CREATENEWCLAMP"
+msgstr ""
+
+#: ..//filter/filter-filter.tpl:106
+msgid "EDITLAMP"
+msgstr ""
+
+#: ..//filter/filter-filter.tpl:110
+msgid "DELETELAMP"
+msgstr ""
+
+#: ..//controls/controls-list.tpl:6
+msgid "CONTROLSTITLE"
+msgstr ""
+
+#: ..//controls/controls-list.tpl:16
+msgid "IDCONTROL"
+msgstr ""
+
+#: ..//controls/controls-list.tpl:17 ..//controls/controls-new.tpl:1
+#: ..//controls/controls-edit.tpl:1
+msgid "CONTROLNAME"
+msgstr ""
+
+#: ..//controls/controls-list.tpl:18
+msgid "CONTROLENTER"
+msgstr ""
+
+#: ..//controls/controls-list.tpl:19
+msgid "CONTROLEDIT"
+msgstr ""
+
+#: ..//controls/controls-list.tpl:30
+msgid "ENTERCONTROL"
+msgstr ""
+
+#: ..//controls/controls-list.tpl:48
+msgid "NOCONTROLSINDB"
+msgstr ""
+
+#: ..//controls/controls-new.tpl:1 ..//controls/controls-edit.tpl:1
+msgid "CONTROLIP"
+msgstr ""
+
+#: ..//areas/areas-list.tpl:6
+msgid "AREASTITLE"
+msgstr ""
+
+#: ..//areas/areas-list.tpl:16
+msgid "IDAREA"
+msgstr ""
+
+#: ..//areas/areas-list.tpl:17 ..//areas/areas-new.tpl:1
+#: ..//areas/areas-edit.tpl:1
+msgid "AREANAME"
+msgstr ""
+
+#: ..//areas/areas-list.tpl:18
+msgid "AREAENTER"
+msgstr ""
+
+#: ..//areas/areas-list.tpl:19
+msgid "AREAEDIT"
+msgstr ""
+
+#: ..//areas/areas-list.tpl:48
+msgid "NOAREASINDB"
+msgstr ""
+
+#: ..//areas/areas-new.tpl:1 ..//areas/areas-edit.tpl:1
+msgid "NEWAREANAME"
+msgstr ""
+
+#: ..//areas/areas-new.tpl:1 ..//areas/areas-edit.tpl:1
+msgid "AREALOCATION"
+msgstr ""
+
+#: ..//areas/areas-new.tpl:1
+msgid "SAVENEWAREA"
+msgstr ""
+
+#: ..//areas/areas-new.tpl:1
+msgid "CANCELNEWAREA"
+msgstr ""
+
+#: ..//areas/areas-edit.tpl:1
+msgid "EDITLOCATION"
+msgstr ""
+
+#: ..//areas/areas-edit.tpl:1
+msgid "AREAID"
+msgstr ""
+
+# index.php:24
+#~ msgid "test"
+#~ msgstr "TR test"
+
+#~ msgid "HELLO_WORLD_2"
+#~ msgstr "Anglicky"
+
+#~ msgid "HELLO_WORLD!!!!"
+#~ msgstr "Anglicky"
+
+# test-locale.php:14
+#~ msgid "HELLO_WORLD"
+#~ msgstr "Ahoj svete"
+
+# index.php:183
+#~ msgid "ProjektME1C2M"
+#~ msgstr "Projekt: ME1 - C2M"

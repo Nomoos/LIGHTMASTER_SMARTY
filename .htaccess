@@ -1,0 +1,22 @@
+DirectoryIndex login.php
+RewriteEngine On
+RewriteBase /
+#Now, rewrite any request to the wrong domain to use www.
+#RewriteCond %{HTTP_HOST} !^www\.
+#RewriteRule ^(.*)$ http://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#RewriteCond %{HTTPS} off
+# First rewrite to HTTPS:
+# Don't put www. here. If it is already there it will be included, if not
+# the subsequent rule will catch it.
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# BOF administrace
+RewriteRule (.*)/(.*):([0-9]+):([0-9]+).html /$1/$1.php?page=$1&subpage=$2&strana=$3&limit=$4 [L,QSA]
+RewriteRule (.*)/(.*):([0-9]+).html /$1/$1.php?page=$1&subpage=$2&strana=$3&limit=25 [L,QSA]
+RewriteRule (.*)/(.*).html /$1/$1.php?page=$1&subpage=$2&strana=1&limit=25 [L,QSA]
+RewriteRule (.*).html /$1.php?page=$1 [L,QSA]
+# EOF administrace
+
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*) /$1.php [L,QSA]
