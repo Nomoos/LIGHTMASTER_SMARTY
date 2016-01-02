@@ -1,0 +1,84 @@
+body        {
+    color: #212121;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    background-color: #fff;
+    text-align: center;
+    margin: 20px 0 0;
+    padding: 0;
+    background-color: #E8EAF0;
+}
+p {
+    font-size: 0.9em;
+}
+#content {
+    text-align: left;
+    width: 468px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:50px;
+}
+#security {
+    background-color: #FFF;
+    padding: 20px;
+    border: solid 1px #bbbdbe;
+}
+.odst1 {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+.odst2 {
+    width: 200px;
+    float: left;
+    padding-top:10px;
+}
+/*kontaktni formular*/
+form {
+    margin: 0;
+    padding: 0;
+}
+fieldset {
+    background-color: #E7F5CF;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: solid 1px #bbbdbe;
+}
+label {
+    color: #000;
+    text-align: left;
+    margin-right: 10px;
+}
+.center	{
+    text-align:center;
+}
+.red {
+    color: #F00;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    font-weight:bold;
+}
+.blue {
+    color: #495677;
+    font-size: 1.4em;
+    margin: 0;
+    padding: 0;
+}
+.center {
+    text-align: center;
+}
+.cleaner {
+    font-size: 1px;
+    line-height: 1px;
+    float: none;
+    clear: both;
+}
+.inp {
+    width: 175px;
+}
+p.root {
+    margin: 0;
+    padding: 0;
+}

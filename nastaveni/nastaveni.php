@@ -1,0 +1,1 @@
+<?phpinclude_once '../includes/start_administrace.php';$file = $_GET['page'].'-' . $_GET['subpage'] . '.php';if (file_exists($file)) {    include_once $file;} else {    go($setup['adm']['www']."prazdnaStranka.html");}$smarty->display($setup['adm']['templates']."/index.tpl");?>
